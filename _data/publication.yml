@@ -1,42 +1,7 @@
-thesis_dissertation:
-  - title: "A Study on AI in Business Analytics"
-    author: "Dr. John Doe"
-    institution: "University of Example"
-    year: 2023
-    link: "http://example.com/thesis"
-    image: "/assets/images/thesis/thesis1.jpg"
-
-  - title: "Deep Learning for Social Network Analysis"
-    author: "Dr. Jane Smith"
-    institution: "Institute of Data Science"
-    year: 2022
-    link: "http://example.com/dissertation"
-    image: "/assets/images/thesis/thesis2.jpg"
-
 2024:
-  - title: "From Spreadsheets to Scalability: Databases as a Next Step for Non-Profits"
-    author: "SJ Shapiro, V Oystrick, A Liu, NK Vadlamudi"
-    journal: "Canadian Journal of Program Evaluation, e20230050"
-    image: "/assets/images/papers/research.jpg"
-
-  - title: "Photovoice as a Participatory Evaluation Method: Evaluating a Collective Kitchen Program in Northern Ontario"
-    author: "V Oystrick, S Shapiro"
-    journal: "Canadian Journal of Program Evaluation, e20240015"
-    image: "/assets/images/papers/research.jpg"
-
   - title: "Artificial Intelligence in Program Evaluation: Insights and Applications"
     author: "S Shapiro, V Lam"
     journal: "Canadian Journal of Program Evaluation 39 (2), 382-391"
-    image: "/assets/images/papers/research.jpg"
-
-  - title: "Pages to Pixels–Modernizing a Used Bookstore for Online Success with Inventory Management and Hidden Value Data Mining"
-    author: "S Shapiro, P Mishra, A Fedorych"
-    journal: "Rutgers Business Review 9 (2), 219-233"
-    image: "/assets/images/papers/research.jpg"
-
-  - title: "Exploring Alternatives to APIs: Diverse Approaches to Data Collection"
-    author: "S Shapiro, A Liu, A Vo"
-    journal: "ESS Open Archive eprints 290, 29075414"
     image: "/assets/images/papers/research.jpg"
 
   - title: "Breaking New Ground: Sofvie’s Role in Advancing Health & Safety Standards in the Mining Sector"
@@ -49,31 +14,148 @@ thesis_dissertation:
     journal: "OATCJ: Open Access Teaching Case Journal 2 (1)"
     image: "/assets/images/papers/research.jpg"
 
+  - title: "Evaluating Safe Region Sizes for Accuracy in Approximate Continuous Nearest Neighbour Queries"
+    author: "W Osborn"
+    journal: "Procedia Computer Science 251, 91-98"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Exploring Alternatives to APIs: Diverse Approaches to Data Collection"
+    author: "S Shapiro, A Liu, A Vo"
+    journal: "ESS Open Archive eprints 290, 29075414"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "From Spreadsheets to Scalability: Databases as a Next Step for Non-Profits"
+    author: "SJ Shapiro, V Oystrick, A Liu, NK Vadlamudi"
+    journal: "Canadian Journal of Program Evaluation, e20230050"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Identifying and Detecting Inaccurate Stack Traces in Bug Reports"
+    author: "MK Bheree, J Anvik"
+    conference: "7th International Conference on Software and System Engineering (ICoSSE)"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Learning Software Engineering Principles with Program Wars v. 3.0"
+    author: "MH Tareque, J Anvik"
+    conference: "Proceedings of the 55th ACM Technical Symposium on Computer Science"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Pages to Pixels–Modernizing a Used Bookstore for Online Success with Inventory Management and Hidden Value Data Mining"
+    author: "S Shapiro, P Mishra, A Fedorych"
+    journal: "Rutgers Business Review 9 (2), 219-233"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Photovoice as a Participatory Evaluation Method: Evaluating a Collective Kitchen Program in Northern Ontario"
+    author: "V Oystrick, S Shapiro"
+    journal: "Canadian Journal of Program Evaluation, e20240015"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Program Wars v. 2.0: Improving a Game-based Learning Approach for Teaching Fundamental Programming Concepts"
+    author: "MH Tareque, S Deutekom, J Anvik, M Bashir"
+    conference: "Proceedings of the 26th Western Canadian Conference on Computing Education"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "You Hacked My Program! Teaching Cybersecurity using Game-based Learning"
+    author: "MH Tareque, S Deutekom, J Anvik, M Bashir"
+    conference: "Proceedings of the 26th Western Canadian Conference on Computing Education"
+    image: "/assets/images/papers/research.jpg"
+
+2023:
+  - title: "Ensemble Methods for Spatial Data Stream Classification"
+    author: "L King, W Osborn"
+    journal: "Procedia Computer Science 224, 155-162"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "The Effects of Scale and Distribution on a Deep Neural Network Iterative Classification System of Spatial Data Streams"
+    author: "K Clarke, W Osborn"
+    conference: "International Conference on Network-Based Information Systems, 21-32"
+    image: "/assets/images/papers/research.jpg"
+
+2022:
+  - title: "Join Processing in Varying Periodic and Aperiodic Spatial Data Streams"
+    author: "W Osborn"
+    conference: "Advances in Networked-Based Information Systems: The 24th International"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Processing of a Continuous Data Stream on a Mobile Device"
+    author: "J Eshriew, W Osborn"
+    conference: "IEEE 13th Annual Ubiquitous Computing, Electronics & Mobile"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Shedding Strategies for Optimizing Join Processing in Spatial Data Streams"
+    author: "W Osborn"
+    journal: "Procedia Computer Science 203, 149-156"
+    image: "/assets/images/papers/research.jpg"
+
 2021:
+  - title: "An Iterative Strategy for Deep Learning Classification on Spatial Data Streams"
+    author: "W Osborn, L King"
+    conference: "23rd International Conference on Information Integration and Web"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Automatically Annotating Sentences for Task-Specific Bug Report Summarization"
+    author: "A Galappaththi, J Anvik, RB Islam"
+    conference: "36th IEEE/ACM International Conference on Automated Software"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "CASTR: Assisting Bug Report Assignment Recommender Creation"
+    author: "DT Devaiya, J Anvik, FY Omee, M Bheree"
+    conference: "SEKE"
+    pages: "639"
+    image: "/assets/images/papers/research.jpg"
+
   - title: "Code Authorship Attribution Using Content-Based and Non-Content-Based Features"
     author: "P Bayrami, JE Rice"
     conference: "IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)"
-    year: 2021
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Evaluating a Tool for Creating Bug Report Assignment Recommenders"
+    author: "D Devaiya, J Anvik, M Bheree, FY Omee"
+    conference: "SEKE"
+    pages: "271-274"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Evaluating Visual Explanation of Bug Report Assignment Recommendations"
+    author: "SA Bhuyan, J Anvik"
+    conference: "SEKE"
+    pages: "334-339"
+    image: "/assets/images/papers/research.jpg"
+
+2020:
+  - title: "Are Automatic Bug Report Summarizers Missing the Target?"
+    author: "J Anvik, A Galappaththi"
+    conference: "IEEE/ACM 42nd International Conference on Software"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Approximate Continuous Nearest Neighbour Query Processing in Clustered Point Sets"
+    author: "W Osborn, C Anderson"
+    conference: "IEEE 11th Annual Information Technology, Electronics and Mobile"
     image: "/assets/images/papers/research.jpg"
 
 2019:
+  - title: "Feature Evaluation for Automatic Bug Report Summarization"
+    author: "A Galappaththi, J Anvik"
+    conference: "SEKE"
+    pages: "205-274"
+    image: "/assets/images/papers/research.jpg"
+
   - title: "Hybrid GA Synthesis of Ternary Reversible Circuits Using Max-Min Algebra"
     author: "M Khan, JE Rice"
     journal: "Journal of Multiple-Valued Logic & Soft Computing 32"
-    year: 2019
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Program Wars: A Card Game for Learning Programming and Cybersecurity Concepts"
+    author: "J Anvik, V Cote, J Riehl"
+    conference: "50th ACM Technical Symposium on Computer Science"
     image: "/assets/images/papers/research.jpg"
 
 2018:
   - title: "First Steps in Creating Online Testable Reversible Sequential Circuits"
     author: "MHA Khan, JE Rice"
     journal: "VLSI Design"
-    year: 2018
     image: "/assets/images/papers/research.jpg"
 
 2017:
   - title: "A Reversible Majority Voter Circuit and Applications"
     author: "MA Nashiry, JE Rice"
     conference: "IEEE Pacific Communications, Computers, and Signal Processing (PACRIM)"
-    year: 2017
     image: "/assets/images/papers/research.jpg"
-
