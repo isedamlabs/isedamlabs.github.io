@@ -1,0 +1,17 @@
+Masters:
+    - name: "Naveen Kumar Vadlamudi"
+      role: "Masters Student"
+      image: "/assets/images/students/naveen.jpg"
+      supervisedBy: "Dr. Wendy Osborn" 
+
+    - name: "Shraddha Devaiya"
+      role: "Masters Student"
+      image: "/assets/images/students/shraddha.jpg"
+      supervisedBy: "Dr. John Anvik"
+    
+    - name: "Prasanta Bhattacharjee"
+      role: "Masters Student"
+      image: "/assets/images/students/prasanta.jpg"
+      supervisedBy: "Dr. Wendy Osborn"
+
+  
