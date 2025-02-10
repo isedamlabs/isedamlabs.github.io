@@ -1,0 +1,71 @@
+2024:
+    - title: "Exploring the Universe: A Comprehensive Study"
+      author: "Dr. Jane Doe, Dr. John Smith"
+      journal: "Astrophysics Journal"
+      link: "http://link-to-publication1.com"
+      image: "/assets/images/papers/research.jpg"
+
+2023:
+  - title: "Exploring the Universe: A Comprehensive Study"
+    author: "Dr. Jane Doe, Dr. John Smith"
+    journal: "Astrophysics Journal"
+    link: "http://link-to-publication1.com"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Advancements in Quantum Computing"
+    author: "Dr. Alice Johnson, Dr. Bob Brown"
+    conference: "International Conference on Quantum Computing"
+    year: 2023
+    link: "http://link-to-publication2.com"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Machine Learning in Healthcare"
+    author: "Dr. Emily White, Dr. Michael Green"
+    journal: "Journal of Medical Informatics"
+    link: "http://link-to-publication3.com"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Innovations in Renewable Energy"
+    author: "Dr. Sarah Black, Dr. William Blue"
+    conference: "Global Summit on Renewable Energy"
+    link: "http://link-to-publication4.com"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "The Future of Artificial Intelligence"
+    author: "Dr. Linda Grey, Dr. Kevin Yellow"
+    journal: "AI Research Journal"
+    link: "http://link-to-publication5.com"
+    image: "/assets/images/papers/research.jpg"
+
+2022: 
+  - title: "Exploring the Universe: A Comprehensive Study"
+    author: "Dr. Jane Doe, Dr. John Smith"
+    journal: "Astrophysics Journal"
+    link: "http://link-to-publication1.com"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Advancements in Quantum Computing"
+    author: "Dr. Alice Johnson, Dr. Bob Brown"
+    conference: "International Conference on Quantum Computing"
+    year: 2023
+    link: "http://link-to-publication2.com"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Machine Learning in Healthcare"
+    author: "Dr. Emily White, Dr. Michael Green"
+    journal: "Journal of Medical Informatics"
+    link: "http://link-to-publication3.com"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Innovations in Renewable Energy"
+    author: "Dr. Sarah Black, Dr. William Blue"
+    conference: "Global Summit on Renewable Energy"
+    link: "http://link-to-publication4.com"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "The Future of Artificial Intelligence"
+    author: "Dr. Linda Grey, Dr. Kevin Yellow"
+    journal: "AI Research Journal"
+    link: "http://link-to-publication5.com"
+    image: "/assets/images/papers/research.jpg"
+
