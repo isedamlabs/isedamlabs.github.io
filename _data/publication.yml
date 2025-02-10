@@ -49,67 +49,31 @@ thesis_dissertation:
     journal: "OATCJ: Open Access Teaching Case Journal 2 (1)"
     image: "/assets/images/papers/research.jpg"
 
-2023:
-  - title: "Exploring the Universe: A Comprehensive Study"
-    author: "Dr. Jane Doe, Dr. John Smith"
-    journal: "Astrophysics Journal"
-    link: "http://link-to-publication1.com"
+2021:
+  - title: "Code Authorship Attribution Using Content-Based and Non-Content-Based Features"
+    author: "P Bayrami, JE Rice"
+    conference: "IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)"
+    year: 2021
     image: "/assets/images/papers/research.jpg"
 
-  - title: "Advancements in Quantum Computing"
-    author: "Dr. Alice Johnson, Dr. Bob Brown"
-    conference: "International Conference on Quantum Computing"
-    year: 2023
-    link: "http://link-to-publication2.com"
+2019:
+  - title: "Hybrid GA Synthesis of Ternary Reversible Circuits Using Max-Min Algebra"
+    author: "M Khan, JE Rice"
+    journal: "Journal of Multiple-Valued Logic & Soft Computing 32"
+    year: 2019
     image: "/assets/images/papers/research.jpg"
 
-  - title: "Machine Learning in Healthcare"
-    author: "Dr. Emily White, Dr. Michael Green"
-    journal: "Journal of Medical Informatics"
-    link: "http://link-to-publication3.com"
+2018:
+  - title: "First Steps in Creating Online Testable Reversible Sequential Circuits"
+    author: "MHA Khan, JE Rice"
+    journal: "VLSI Design"
+    year: 2018
     image: "/assets/images/papers/research.jpg"
 
-  - title: "Innovations in Renewable Energy"
-    author: "Dr. Sarah Black, Dr. William Blue"
-    conference: "Global Summit on Renewable Energy"
-    link: "http://link-to-publication4.com"
-    image: "/assets/images/papers/research.jpg"
-
-  - title: "The Future of Artificial Intelligence"
-    author: "Dr. Linda Grey, Dr. Kevin Yellow"
-    journal: "AI Research Journal"
-    link: "http://link-to-publication5.com"
-    image: "/assets/images/papers/research.jpg"
-
-2022: 
-  - title: "Exploring the Universe: A Comprehensive Study"
-    author: "Dr. Jane Doe, Dr. John Smith"
-    journal: "Astrophysics Journal"
-    link: "http://link-to-publication1.com"
-    image: "/assets/images/papers/research.jpg"
-
-  - title: "Advancements in Quantum Computing"
-    author: "Dr. Alice Johnson, Dr. Bob Brown"
-    conference: "International Conference on Quantum Computing"
-    year: 2023
-    link: "http://link-to-publication2.com"
-    image: "/assets/images/papers/research.jpg"
-
-  - title: "Machine Learning in Healthcare"
-    author: "Dr. Emily White, Dr. Michael Green"
-    journal: "Journal of Medical Informatics"
-    link: "http://link-to-publication3.com"
-    image: "/assets/images/papers/research.jpg"
-
-  - title: "Innovations in Renewable Energy"
-    author: "Dr. Sarah Black, Dr. William Blue"
-    conference: "Global Summit on Renewable Energy"
-    link: "http://link-to-publication4.com"
-    image: "/assets/images/papers/research.jpg"
-
-  - title: "The Future of Artificial Intelligence"
-    author: "Dr. Linda Grey, Dr. Kevin Yellow"
-    journal: "AI Research Journal"
-    link: "http://link-to-publication5.com"
+2017:
+  - title: "A Reversible Majority Voter Circuit and Applications"
+    author: "MA Nashiry, JE Rice"
+    conference: "IEEE Pacific Communications, Computers, and Signal Processing (PACRIM)"
+    year: 2017
     image: "/assets/images/papers/research.jpg"
 
