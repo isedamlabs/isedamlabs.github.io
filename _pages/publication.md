@@ -5,14 +5,13 @@ layout: archive
 permalink: /publications/
 ---
 
-
 <h2>Our Recent Publications</h2>
 
 {% assign publications_by_year = site.data.publication %}
 
 {% for year in publications_by_year %}
   <h2>{{ year[0] }}</h2>
-  <div class="publications-grid">
+  <div class="publications-list"> <!-- Updated from publications-grid -->
     {% for publication in year[1] %}
       <div class="publication-tile">
         <div class="publication-image">
@@ -36,12 +35,11 @@ permalink: /publications/
   </div>
 {% endfor %}
 
-
 <h2>Thesis and Dissertation</h2>
 
 {% assign thesis_dissertation = site.data.publication.thesis_dissertation %}
 
-<div class="publications-grid">
+<div class="publications-list"> <!-- Updated from publications-grid -->
   {% for thesis in thesis_dissertation %}
     <div class="publication-tile">
       <div class="publication-image">
