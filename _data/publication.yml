@@ -1,3 +1,18 @@
+thesis_dissertation:
+  - title: "A Study on AI in Business Analytics"
+    author: "Dr. John Doe"
+    institution: "University of Example"
+    year: 2023
+    link: "http://example.com/thesis"
+    image: "/assets/images/thesis/thesis1.jpg"
+
+  - title: "Deep Learning for Social Network Analysis"
+    author: "Dr. Jane Smith"
+    institution: "Institute of Data Science"
+    year: 2022
+    link: "http://example.com/dissertation"
+    image: "/assets/images/thesis/thesis2.jpg"
+
 2024:
   - title: "From Spreadsheets to Scalability: Databases as a Next Step for Non-Profits"
     author: "SJ Shapiro, V Oystrick, A Liu, NK Vadlamudi"
