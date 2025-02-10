@@ -1,11 +1,10 @@
-/* filepath: /workspaces/minimal-mistakes/assets/css/publications.scss */
 .year-publications {
   margin-bottom: 40px;
 }
 
 .publications-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
   gap: 20px;
 }
 
@@ -17,7 +16,6 @@
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: left;
-  margin-bottom: 20px; /* Adds space after each publication tile */
 }
 
 .publication-image {
@@ -63,118 +61,9 @@
   transform: translateY(-2px); /* Slightly lift the button on hover */
 }
 
-/* filepath: /workspaces/minimal-mistakes/assets/css/team.scss */
-.phd-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.phd-member {
-  display: flex; /* Use flexbox to align image and content side by side */
-  border: 1px solid #ddd;
-  padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 20px; /* Add margin to separate the items */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: left;
-  width: 100%; /* Full width for each profile */
-}
-
-.phd-image {
-  flex: 0 0 150px; /* Fixed width for the image container */
-  margin-right: 20px; /* Space between image and content */
-}
-
-.phd-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
-}
-
-.phd-content {
-  flex: 1; /* Take the remaining space */
-}
-
-.phd-name {
-  font-size: 1.5em;
-  margin: 10px 0;
-}
-
-.phd-role {
-  font-size: 1.2em;
-  color: #666;
-}
-
-.phd-description {
-  font-size: 1em;
-  margin: 10px 0;
-}
-
-.phd-link {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-/* filepath: /workspaces/minimal-mistakes/assets/css/team.scss */
-.alumni-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.alumni-member {
-  display: flex; /* Use flexbox to align image and content side by side */
-  border: 1px solid #ddd;
-  padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 20px; /* Add margin to separate the items */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: left;
-  width: 100%; /* Full width for each profile */
-}
-
-.alumni-image {
-  flex: 0 0 150px; /* Fixed width for the image container */
-  margin-right: 20px; /* Space between image and content */
-}
-
-.alumni-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
-}
-
-.alumni-content {
-  flex: 1; /* Take the remaining space */
-}
-
-.alumni-name {
-  font-size: 1.5em;
-  margin: 10px 0;
-}
-
-.alumni-role {
-  font-size: 1.2em;
-  color: #666;
-}
-
-.alumni-description {
-  font-size: 1em;
-  margin: 10px 0;
-}
-
-.alumni-link {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
+/* Responsive Design */
+@media (max-width: 768px) {
+  .publications-list {
+    grid-template-columns: 1fr; /* Switch to a single column on smaller screens */
+  }
 }
