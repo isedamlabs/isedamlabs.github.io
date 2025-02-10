@@ -1,9 +1,38 @@
 2024:
-    - title: "Exploring the Universe: A Comprehensive Study"
-      author: "Dr. Jane Doe, Dr. John Smith"
-      journal: "Astrophysics Journal"
-      link: "http://link-to-publication1.com"
-      image: "/assets/images/papers/research.jpg"
+  - title: "From Spreadsheets to Scalability: Databases as a Next Step for Non-Profits"
+    author: "SJ Shapiro, V Oystrick, A Liu, NK Vadlamudi"
+    journal: "Canadian Journal of Program Evaluation, e20230050"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Photovoice as a Participatory Evaluation Method: Evaluating a Collective Kitchen Program in Northern Ontario"
+    author: "V Oystrick, S Shapiro"
+    journal: "Canadian Journal of Program Evaluation, e20240015"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Artificial Intelligence in Program Evaluation: Insights and Applications"
+    author: "S Shapiro, V Lam"
+    journal: "Canadian Journal of Program Evaluation 39 (2), 382-391"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Pages to Pixels–Modernizing a Used Bookstore for Online Success with Inventory Management and Hidden Value Data Mining"
+    author: "S Shapiro, P Mishra, A Fedorych"
+    journal: "Rutgers Business Review 9 (2), 219-233"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Exploring Alternatives to APIs: Diverse Approaches to Data Collection"
+    author: "S Shapiro, A Liu, A Vo"
+    journal: "ESS Open Archive eprints 290, 29075414"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Breaking New Ground: Sofvie’s Role in Advancing Health & Safety Standards in the Mining Sector"
+    author: "S Shapiro, AX Liu"
+    journal: "OATCJ: Open Access Teaching Case Journal 2 (1)"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Disrupting the Dating Scene: The U Got Game Dating App"
+    author: "SJ Shapiro, AX Liu"
+    journal: "OATCJ: Open Access Teaching Case Journal 2 (1)"
+    image: "/assets/images/papers/research.jpg"
 
 2023:
   - title: "Exploring the Universe: A Comprehensive Study"
