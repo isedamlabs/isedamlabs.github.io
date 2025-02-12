@@ -37,7 +37,7 @@ permalink: /publications/
 
 <h2>Thesis and Dissertation</h2>
 
-{% assign thesis_dissertation = site.data.publication.thesis_dissertation %}
+{% assign thesis_dissertation = site.data.dissertation %}
 
 <div class="publications-list"> <!-- Updated from publications-grid -->
   {% for thesis in thesis_dissertation %}
