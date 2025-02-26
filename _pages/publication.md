@@ -32,9 +32,27 @@ permalink: /publications/
               {% if publication.conference %}
                 <p><strong>Conference:</strong> {{ publication.conference }}</p>
               {% endif %}
-              <p>
-                <a href="{{ publication.link }}" class="publication-link">Read more</a>
-              </p>
+              {% if publication.url %}
+                <p>
+                  <a href="{{ publication.url }}" class="publication-link">Read the Article</a>
+                </p>
+              {% else %}
+                {% assign associated_articles = site.articles | where: "publication_title", publication.title %}
+                {% if associated_articles.size > 0 %}
+                  <div class="associated-articles">
+                    <h5>Associated Articles</h5>
+                    <ul>
+                      {% for article in associated_articles %}
+                        <li><a href="{{ article.url }}">{{ article.title }}</a></li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% else %}
+                  <p>
+                    <a href="{{ publication.link }}" class="publication-link">Read more</a>
+                  </p>
+                {% endif %}
+              {% endif %}
             </div>
           </article>
         {% endfor %}
@@ -61,9 +79,15 @@ permalink: /publications/
           <p><strong>Author(s):</strong> {{ thesis.author }}</p>
           <p><strong>Institution:</strong> {{ thesis.institution }}</p>
           <p><strong>Year:</strong> {{ thesis.year }}</p>
-          <p>
-            <a href="{{ thesis.link }}" class="publication-link">Read more</a>
-          </p>
+          {% if thesis.url %}
+            <p>
+              <a href="{{ thesis.url }}" class="publication-link">Read the Article</a>
+            </p>
+          {% else %}
+            <p>
+              <a href="{{ thesis.link }}" class="publication-link">Read more</a>
+            </p>
+          {% endif %}
         </div>
       </article>
     {% endfor %}
