@@ -76,11 +76,13 @@
     author: "L King, W Osborn"
     journal: "Procedia Computer Science 224, 155-162"
     image: "/assets/images/papers/research.jpg"
+    url: "https://www.sciencedirect.com/science/article/pii/S1877050923010700"
 
   - title: "The Effects of Scale and Distribution on a Deep Neural Network Iterative Classification System of Spatial Data Streams"
     author: "K Clarke, W Osborn"
     conference: "International Conference on Network-Based Information Systems, 21-32"
     image: "/assets/images/papers/research.jpg"
+    url: "https://link-springer-com.uleth.idm.oclc.org/chapter/10.1007/978-3-031-40978-3_3"
 
 2022:
   - title: "Join Processing in Varying Periodic and Aperiodic Spatial Data Streams"
