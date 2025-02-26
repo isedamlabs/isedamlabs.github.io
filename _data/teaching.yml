@@ -13,6 +13,27 @@
     image: "/assets/images/teaching/astronomy.jpg"
     description: "This course covers advanced topics in software engineering, including design patterns and software architecture."
 
+  - title: "BANA 5140/DASC 5140 - Data Management"
+    instructor: "Dr. Sidney Shapiro"
+    location: "Dhillon School of Business"
+    link: "https://www.ulethbridge.ca/future-student/graduate-studies/foundations-data-science-gc"
+    image: "/assets/images/teaching/astronomy.jpg"
+    description: "This course covers data management principles, focusing on storage, preparation, and analysis of complex data across various fields."
+
+  - title: "BANA 5050/DASC 5050 - Data Wrangling"
+    instructor: "Dr. Sidney Shapiro"
+    location: "Dhillon School of Business"
+    link: "https://www.ulethbridge.ca/future-student/graduate-studies/foundations-data-science-gc"
+    image: "/assets/images/teaching/astronomy.jpg"
+    description: "This course teaches programming techniques for manipulating and analyzing data, tailored to solve common business problems at scale."
+
+  - title: "MGT 3850 - Data Transformation"
+    instructor: "Dr. Sidney Shapiro"
+    location: "Dhillon School of Business"
+    link: "https://www.ulethbridge.ca/dhillon/study/open-access-courses"
+    image: "/assets/images/teaching/astronomy.jpg"
+    description: "This course focuses on applying programming techniques to manipulate and analyze data, integrating data manipulation methods with practical applications to solve business challenges."
+
 2024:
   - title: "Exploring the Universe: A Comprehensive Study"
     author: "Dr. Jane Doe, Dr. John Smith"
