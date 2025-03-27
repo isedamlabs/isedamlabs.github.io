@@ -17,11 +17,11 @@
     institution: "University of Lethbridge"
     year: 2024
     link: "https://opus.uleth.ca/items/a1b1d0df-b18f-4702-81be-139ea89fd740/full"
-    image: "/assets/images/thesis/prasanta_masters_thesis_uleth.png"
+    image: "/assets/images/thesis/prasanta_masters_thesis_outline.png"
 
   - title: "Measuring Developer Experience With Abstract Syntax Trees"
     author: "Steven Deutekom"
     institution: "University of Lethbridge"
     year: 2023
     link: "https://opus.uleth.ca/server/api/core/bitstreams/0765c229-2cab-4f83-b4c8-7475b06968f2/content"
-    image: "/assets/images/thesis/steven_thesis.png"
+    image: "/assets/images/thesis/steven_thesis_outline.png"
