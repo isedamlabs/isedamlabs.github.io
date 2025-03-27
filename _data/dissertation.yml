@@ -3,7 +3,7 @@
     institution: "University of Lethbridge"
     year: 2024
     link: "https://opus.uleth.ca/items/0ef314c7-5dc8-4cb5-98a3-81ff6156201c"
-    image: "/assets/images/thesis/thesis1.jpg"
+    image: "/assets/images/thesis/naveens_thesis_outline.png"
 
   - title: "Expanding the capabilities of a bug report annotation tool for summarization"
     author: "Dr. John Anvik"
@@ -17,4 +17,11 @@
     institution: "University of Lethbridge"
     year: 2024
     link: "https://opus.uleth.ca/items/a1b1d0df-b18f-4702-81be-139ea89fd740/full"
-    image: "/assets/images/thesis/thesis1.jpg"
+    image: "/assets/images/thesis/prasanta_masters_thesis_uleth.jpg"
+
+  - title: "Measuring Developer Experience With Abstract Syntax Trees"
+    author: "Steven Deutekom"
+    institution: "University of Lethbridge"
+    year: 2023
+    link: "https://opus.uleth.ca/server/api/core/bitstreams/0765c229-2cab-4f83-b4c8-7475b06968f2/content"
+    image: "/assets/images/thesis/steven_thesis.jpg"
