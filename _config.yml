@@ -45,7 +45,7 @@ collections:
   publications:
     output: true
     permalink: /publications/
-  dissertation:
+  thesis-dissertation:
     output: true
     permalink: /thesis-dissertation/
   teaching:       
