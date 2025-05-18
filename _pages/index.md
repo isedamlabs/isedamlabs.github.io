@@ -40,10 +40,8 @@ about_us_section:
   - image_path: /assets/images/home/history_3.jpg
   - image_path: /assets/images/home/history_1.jpg
   - image_path: /assets/images/home/history_2.jpg
-  - image_path: /assets/images/home/history_3.jpg
-  - image_path: /assets/images/home/history_1.jpg
-  - image_path: /assets/images/home/history_2.jpg
-  - image_path: /assets/images/home/history_3.jpg
+  - image_path: /assets/images/home/uleth-hero-comp.jpg
+
 
 ---
 {% comment %}
