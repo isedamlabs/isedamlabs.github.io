@@ -1,6 +1,8 @@
 main:
   - title: Publications
     url: /publications/
+  - title: Thesis & Dissertation
+    url: /thesis-dissertation/
   - title: Teaching
     url: /teaching/
   - title: People
