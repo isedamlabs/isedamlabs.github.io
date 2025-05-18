@@ -9,7 +9,7 @@ permalink: /thesis-dissertation/
     <h2>Thesis and Dissertation</h2>
   </header>
   <div class="publications-list">
-    {% assign thesis_dissertation = site.data.dissertation %}
+    {% assign thesis_dissertation = site.data["thesis-dissertation"] %}
     {% for thesis in thesis_dissertation %}
       <article class="publication-tile">
         {% if thesis.image %}
