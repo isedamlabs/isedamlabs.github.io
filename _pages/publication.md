@@ -34,7 +34,7 @@ permalink: /publications/
               {% endif %}
               {% if publication.url %}
                 <p>
-                  <a href="{{ publication.url }}" class="publication-link" target="_blank">Read the Article</a>
+                  <a href="{{ publication.url }}" class="publication-link" target="_blank" rel="noopener noreferrer">Read the Article</a>
                 </p>
               {% else %}
                 {% assign associated_articles = site.articles | where: "publication_title", publication.title %}
