@@ -1,4 +1,25 @@
 2025:
+  - title: "Overview of Business Analytics – BANA 5000"
+    instructor: "Dr. Sidney Shapiro"
+    location: "Dhillon School of Business"
+    link: ""
+    image: "/assets/images/teaching/business_analytics.jpg"
+    description: "This course provides foundational concepts in business analytics, exploring methods to leverage data for improved decision-making and strategic planning."
+
+  - title: "Emerging Technology in Business: AI in the Workplace – MGT 3850"
+    instructor: "Dr. Sidney Shapiro"
+    location: "Dhillon School of Business"
+    link: ""
+    image: "/assets/images/teaching/ai_workplace.jpg"
+    description: "This course examines the integration and impact of artificial intelligence in modern business environments, focusing on technological innovations and practical implications for management."
+
+  - title: "Data, Databases and Applications for Business – MGT 4850"
+    instructor: "Dr. Sidney Shapiro"
+    location: "Dhillon School of Business"
+    link: ""
+    image: "/assets/images/teaching/data_management.jpg"
+    description: "This course explores principles of data management, database systems, and their applications in business analytics to support data-driven decision-making."
+    
   - title: "Introduction to Databases - CPSC 3660"
     instructor: "Dr. Wendy Osborn"
     location: "Andys Hall"
