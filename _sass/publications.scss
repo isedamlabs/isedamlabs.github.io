@@ -176,15 +176,23 @@
 }
 
 .publication-table-link {
-  display: inline-block;
-  font-size: 1.5em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: #4a90e2;
   transition: transform 0.2s ease, color 0.2s ease;
+  padding: 4px;
+}
+
+.publication-table-link svg {
+  width: 20px;
+  height: 20px;
+  stroke: currentColor;
 }
 
 .publication-table-link:hover {
-  transform: scale(1.2);
+  transform: scale(1.15);
   color: #357abd;
 }
 

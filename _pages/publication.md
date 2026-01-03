@@ -103,7 +103,7 @@ permalink: /publications/
                 <thead>
                   <tr>
                     <th style="width: 120px;">Image</th>
-                    <th>Citation (APA 7th Edition)</th>
+                    <th>Citation</th>
                     <th style="width: 100px;">Link</th>
                   </tr>
                 </thead>
@@ -133,14 +133,32 @@ permalink: /publications/
                       </td>
                       <td class="publication-link-cell">
                         {% if publication.url %}
-                          <a href="{{ publication.url }}" class="publication-table-link" target="_blank" rel="noopener noreferrer" title="Read the article">📄</a>
+                          <a href="{{ publication.url }}" class="publication-table-link" target="_blank" rel="noopener noreferrer" title="Read the article">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                              <polyline points="15 3 21 3 21 9"></polyline>
+                              <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                          </a>
                         {% else %}
                           {% assign associated_articles = site.articles | where: "publication_title", publication.title %}
                           {% if associated_articles.size > 0 %}
-                            <a href="{{ associated_articles.first.url }}" class="publication-table-link" title="Read more">📄</a>
+                            <a href="{{ associated_articles.first.url }}" class="publication-table-link" title="Read more">
+                              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                              </svg>
+                            </a>
                           {% else %}
                             {% if publication.link %}
-                              <a href="{{ publication.link }}" class="publication-table-link" title="Read more">📄</a>
+                              <a href="{{ publication.link }}" class="publication-table-link" title="Read more">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                  <polyline points="15 3 21 3 21 9"></polyline>
+                                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                              </a>
                             {% else %}
                               <span class="publication-no-link">—</span>
                             {% endif %}
