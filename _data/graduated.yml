@@ -14,4 +14,10 @@ Masters:
       image: "/assets/images/students/prasanta.jpg"
       supervisedBy: "Dr. Wendy Osborn"
 
+PhD:
+    - name: "Deen Mohammad Abdullah"
+      role: "PhD Student & Instructor at Uleth"
+      image: "/assets/images/students/deen.jpg"
+      supervisedBy: "Dr. Jackie Rice"
+
   

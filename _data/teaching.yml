@@ -23,14 +23,14 @@
   - title: "Introduction to Databases - CPSC 3660"
     instructor: "Dr. Wendy Osborn"
     location: "Andys Hall"
-    link: "http://link-to-course1.com"
+    link: ""
     image: "/assets/images/teaching/astronomy.jpg"
     description: "This course provides an introduction to the design and use of database systems."
 
-  - title: "Advanced Software Engineering - CPSC 3660"
+  - title: "Advanced Software Engineering - CPSC 4710"
     instructor: "Dr. John Anvik"
     location: "Science Commons"
-    link: "http://link-to-course2.com"
+    link: ""
     image: "/assets/images/teaching/astronomy.jpg"
     description: "This course covers advanced topics in software engineering, including design patterns and software architecture."
 
@@ -55,13 +55,6 @@
     image: "/assets/images/teaching/astronomy.jpg"
     description: "This course focuses on applying programming techniques to manipulate and analyze data, integrating data manipulation methods with practical applications to solve business challenges."
 
-2024:
-  - title: "Exploring the Universe: A Comprehensive Study"
-    author: "Dr. Jane Doe, Dr. John Smith"
-    journal: "Astrophysics Journal"
-    link: "http://link-to-publication1.com"
-    image: "/assets/images/papers/research.jpg"
-    description: "A comprehensive study of the universe, covering various aspects of astrophysics and cosmology."
 
 
 

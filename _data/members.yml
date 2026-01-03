@@ -1,23 +1,23 @@
 Faculty:    
-    - name: "Dr.Jacqueline E. Rice"
+    - name: "Dr. Jacqueline E. Rice"
       role: "Faculty"
       image: "/assets/images/faculty/Dr_Rice.jpeg"
       description: "Sociolinguistics, programming languages, software quality."
       link: "https://www.cs.uleth.ca/~rice/"
 
-    - name: "Dr.Wendy Osborn"
+    - name: "Dr. Wendy Osborn"
       role: "Faculty"
       image: "/assets/images/faculty/dr_wendy.jpg"
       description: "Spatial data, query optimization, and mobile information systems."
       link: "https://www.cs.uleth.ca/~osborn/research.html"
 
-    - name: "Dr.John Anvik"
+    - name: "Dr. John Anvik"
       role: "Faculty"
       image: "/assets/images/faculty/Sir_John_Anvik.jpg"
       description: "Software engineering, Software maintenance, bug report triage."
       link: "https://www.ulethbridge.ca/directory/person/john.anvik"
       
-    - name: "Dr.Sidney Shapiro"
+    - name: "Dr. Sidney Shapiro"
       role: "Faculty"
       image: "/assets/images/faculty/dr_sidney.jpeg"
       description: "Business decision-making, AI, LLM evaluation"
@@ -27,31 +27,31 @@ Master Students:
    - name: "Olanrewaju Oladokun"
      role: "Masters Student"
      image: "/assets/images/students/olan.jpg"
-     description: "Dr.Jackie Rice"
+     description: "Dr. Jackie Rice"
 
    - name: "Sudip Pokhrel"
      role: "Masters Student"
      image: "/assets/images/students/sudip.jpeg"
-     description: "Dr.John Anvik"
+     description: "Dr. John Anvik"
 
    - name: "Micheal Enigbokan"
      role: "Masters Student"
      image: "/assets/images/students/micheal.jpeg"
      description: "Dr. Sidney Shapiro"
 
+   - name: "Daniel Pearson"
+     role: "Masters Student"
+     image: "/assets/images/students/daniel.jpg"
+     description: "Dr. Sidney Shapiro"
+
    
 Phd:
-   - name: "Md.Tareque Hassan"
+   - name: "Md. Tareque Hassan"
      role: "PhD Student & Instructor at Uleth"
      image: "/assets/images/students/tareque.jpg"
-     description: "Dr.John Anvik"
+     description: "Dr. John Anvik"
     
-   - name: "Deen Mohammad Abdullah"
-     role: "PhD Student & Instructor at Uleth"
-     image: "/assets/images/students/deen.jpg"
-     description: "Dr.Jackie Rice"
-
    - name: "Stephen Graham"
      role: "PhD Student & Instructor at Lethbridge College"
      image: "/assets/images/students/stephen.jpg"
-     description: "Dr.Jackie Rice"
+     description: "Dr. Jackie Rice"

@@ -1,5 +1,29 @@
 2025:
-  - title: "Underst@ Nding and Deobfuscating Textual Data: Managerial Insights and Computational Challenges"
+  - title: "A Spatial Data Stream Ensemble for Prediction of Emergency Service Priorities"
+    author: "P Bhattacharjee, W Osborn"
+    conference: "International Conference on Network-Based Information Systems, 244-257"
+    image: "/assets/images/papers/research.jpg"
+    url: ""
+
+  - title: "A Spatial Data Stream Ensemble for Prediction of Emergency Service"
+    author: "P Bhattacharjee, W Osborn"
+    conference: "Advances in Networked-Based Information Systems: The 28th International"
+    image: "/assets/images/papers/research.jpg"
+    url: ""
+
+  - title: "Batch Processing Algorithms for NewSQL-based Big Data Systems"
+    author: "NK Vadlamudi, W Osborn"
+    conference: "2025 IEEE 49th Annual Computers, Software, and Applications Conference"
+    image: "/assets/images/papers/research.jpg"
+    url: ""
+
+  - title: "Evaluating the Accuracy of Random User Trajectories in Cluster-Based Continuous Query Processing"
+    author: "W Osborn"
+    conference: "International Conference on Network-Based Information Systems, 269-280"
+    image: "/assets/images/papers/research.jpg"
+    url: ""
+
+  - title: "Understanding and Deobfuscating Textual Data: Managerial Insights and Computational Challenges"
     author: "S Shapiro, V Lam"
     journal: "IEEE Engineering Management Review"
     image: "/assets/images/papers/research.jpg"
@@ -26,14 +50,14 @@
   - title: "Testing the capability of generative artificial intelligence for parent and caregiver information seeking"
     author: "YB Kim, SL Vilches, S Shapiro, A Clarkson"
     journal: "Family Relations"
-    image: "/assets/images/papers/research.jpg"
+    image: "/assets/images/papers/onlinelibrary.wiley.com_doi_10.1111_fare.13167.png"
     url: "https://onlinelibrary.wiley.com/doi/full/10.1111/fare.13167"
 
 2024:
   - title: "Artificial Intelligence in Program Evaluation: Insights and Applications"
     author: "S Shapiro, V Lam"
     journal: "Canadian Journal of Program Evaluation 39 (2), 382-391"
-    image: "/assets/images/papers/research.jpg"
+    image: "/assets/images/papers/utppublishing.com_doi_10.3138_cjpe-2024-0027.png"
     url: "https://utpjournals.press/doi/10.3138/cjpe-2024-0027"
 
   - title: "Breaking New Ground: Sofvie’s Role in Advancing Health & Safety Standards in the Mining Sector"
@@ -51,31 +75,31 @@
   - title: "Evaluating Safe Region Sizes for Accuracy in Approximate Continuous Nearest Neighbour Queries"
     author: "W Osborn"
     journal: "Procedia Computer Science 251, 91-98"
-    image: "/assets/images/papers/research.jpg"
+    image: "/assets/images/papers/sciencedirect.com_S1877050924033222.png"
     url: "https://www.sciencedirect.com/science/article/pii/S1877050924033222"
 
   - title: "Exploring Alternatives to APIs: Diverse Approaches to Data Collection"
     author: "S Shapiro, A Liu, A Vo"
     journal: "ESS Open Archive eprints 290, 29075414"
-    image: "/assets/images/papers/research.jpg"
+    image: "/assets/images/papers/eartharxiv.org_repository_view_290_.png"
     url: "https://eartharxiv.org/repository/view/290/"
 
   - title: "From Spreadsheets to Scalability: Databases as a Next Step for Non-Profits"
     author: "SJ Shapiro, V Oystrick, A Liu, NK Vadlamudi"
     journal: "Canadian Journal of Program Evaluation, e20230050"
-    image: "/assets/images/papers/research.jpg"
+    image: "/assets/images/papers/evaluationcanada.ca_learning-and-events_cjpe_index.html.png"
     url: "https://evaluationcanada.ca/learning-and-events/cjpe/index.html"
 
   - title: "Identifying and Detecting Inaccurate Stack Traces in Bug Reports"
     author: "MK Bheree, J Anvik"
     conference: "7th International Conference on Software and System Engineering (ICoSSE)"
-    image: "/assets/images/papers/research.jpg"
+    image: "/assets/images/papers/ieeexplore.ieee.org_abstract_document_10608359.png"
     url: "https://ieeexplore.ieee.org/abstract/document/10608359"
 
   - title: "Learning Software Engineering Principles with Program Wars v. 3.0"
     author: "MH Tareque, J Anvik"
     conference: "Proceedings of the 55th ACM Technical Symposium on Computer Science"
-    image: "/assets/images/papers/research.jpg"
+    image: "/assets/images/papers/dl.acm.org_doi_abs_10.1145_3626253.3635551.png"
     url: "https://dl.acm.org/doi/abs/10.1145/3626253.3635551"
 
   - title: "Pages to Pixels–Modernizing a Used Bookstore for Online Success with Inventory Management and Hidden Value Data Mining"
@@ -87,26 +111,26 @@
   - title: "Photovoice as a Participatory Evaluation Method: Evaluating a Collective Kitchen Program in Northern Ontario"
     author: "V Oystrick, S Shapiro"
     journal: "Canadian Journal of Program Evaluation, e20240015"
-    image: "/assets/images/papers/research.jpg"
+    image: "/assets/images/papers/utppublishing.com_doi_10.3138_cjpe-2024-0015.png"
     url: "https://utppublishing.com/doi/10.3138/cjpe-2024-0015"
 
   - title: "Program Wars v. 2.0: Improving a Game-based Learning Approach for Teaching Fundamental Programming Concepts"
     author: "MH Tareque, S Deutekom, J Anvik, M Bashir"
     conference: "Proceedings of the 26th Western Canadian Conference on Computing Education"
-    image: "/assets/images/papers/research.jpg"
+    image: "/assets/images/papers/dl.acm.org_doi_abs_10.1145_3660650.3660671.png"
     url: "https://dl.acm.org/doi/abs/10.1145/3660650.3660671"
 
   - title: "You Hacked My Program! Teaching Cybersecurity using Game-based Learning"
     author: "MH Tareque, S Deutekom, J Anvik, M Bashir"
     conference: "Proceedings of the 26th Western Canadian Conference on Computing Education"
-    image: "/assets/images/papers/research.jpg"
+    image: "/assets/images/papers/dl.acm.org_doi_abs_10.1145_3660650.3660672.png"
     url: "https://dl.acm.org/doi/abs/10.1145/3660650.3660672"
 
 2023:
   - title: "Ensemble Methods for Spatial Data Stream Classification"
     author: "L King, W Osborn"
     journal: "Procedia Computer Science 224, 155-162"
-    image: "/assets/images/papers/research.jpg"
+    image: "/assets/images/papers/sciencedirect.com_S1877050923010700.png"
     url: "https://www.sciencedirect.com/science/article/pii/S1877050923010700"
 
   - title: "The Effects of Scale and Distribution on a Deep Neural Network Iterative Classification System of Spatial Data Streams"
@@ -137,6 +161,24 @@
     conference: "23rd International Conference on Information Integration and Web"
     image: "/assets/images/papers/research.jpg"
 
+  - title: "Point cloud capture and segmentation of animal images using classification and clustering"
+    author: "J Petluk, W Osborn"
+    conference: "Proceedings of the 1st ACM SIGSPATIAL International Workshop on Animal"
+    image: "/assets/images/papers/research.jpg"
+    url: ""
+
+  - title: "Unbounded Spatial Data Stream Query Processing using Spatial Semijoin"
+    author: "W Osborn"
+    journal: "J. Ubiquitous Syst. Pervasive Networks 15 (2), 33-41"
+    image: "/assets/images/papers/research.jpg"
+    url: ""
+
+  - title: "Using Clusters for Approximate Continuous k-Nearest Neighbour Queries"
+    author: "W Osborn"
+    conference: "International Conference on Advanced Information Networking and Applications"
+    image: "/assets/images/papers/research.jpg"
+    url: ""
+
   - title: "Automatically Annotating Sentences for Task-Specific Bug Report Summarization"
     author: "A Galappaththi, J Anvik, RB Islam"
     conference: "36th IEEE/ACM International Conference on Automated Software"
@@ -166,14 +208,44 @@
     image: "/assets/images/papers/research.jpg"
 
 2020:
-  - title: "Are Automatic Bug Report Summarizers Missing the Target?"
-    author: "J Anvik, A Galappaththi"
-    conference: "IEEE/ACM 42nd International Conference on Software"
-    image: "/assets/images/papers/research.jpg"
-
   - title: "Approximate Continuous Nearest Neighbour Query Processing in Clustered Point Sets"
     author: "W Osborn, C Anderson"
     conference: "IEEE 11th Annual Information Technology, Electronics and Mobile"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "A streaming stock market application adapted to a mobile device"
+    author: "J Huang, W Osborn"
+    conference: "IEEE 11th Annual Information Technology, Electronics and Mobile"
+    image: "/assets/images/papers/research.jpg"
+    url: ""
+
+  - title: "Data stream query processing on mobile device"
+    author: "M Kazemzadeh, W Osborn"
+    conference: "16th International Conference on Wireless and Mobile Computing"
+    image: "/assets/images/papers/research.jpg"
+    url: ""
+
+  - title: "Dynamic group trip planning queries in spatial database"
+    author: "F Aklam, W Osborn"
+    conference: "IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)"
+    image: "/assets/images/papers/research.jpg"
+    url: ""
+
+  - title: "Join processing in unbounded spatial data stream"
+    author: "W Osborn"
+    journal: "Procedia Computer Science 175, 237-244"
+    image: "/assets/images/papers/research.jpg"
+    url: ""
+
+  - title: "Strategies for alternate group trip planning queries in location-based service"
+    author: "W Osborn, S Shaik"
+    conference: "International Conference on Network-Based Information Systems, 64-76"
+    image: "/assets/images/papers/research.jpg"
+    url: ""
+
+  - title: "Are Automatic Bug Report Summarizers Missing the Target?"
+    author: "J Anvik, A Galappaththi"
+    conference: "IEEE/ACM 42nd International Conference on Software"
     image: "/assets/images/papers/research.jpg"
 
 2019:

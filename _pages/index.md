@@ -24,7 +24,7 @@ research_section:
 
 code_section:
   - image_path: /assets/images/home/isedam_github.png
-    url: "https://github.com/isedamlab"
+    url: "https://github.com/isedamlabs"
     alt: "Our GitHub page"
     title: "Open-Source Code"
     btn_label: "GitHub"
@@ -67,7 +67,7 @@ For detailed information on how to apply and join our lab, please visit our [Joi
 # About Us
 {: .text-center}
 
-We are a group of faculty members, researchers and students affiliated with University of Lethbridge, located in Lethbrdige Canada.
+We are a group of faculty members, researchers and students affiliated with University of Lethbridge, located in Lethbridge, Canada.
 {: .text-center}
 
 {% include feature_row id="about_us_section" %}
