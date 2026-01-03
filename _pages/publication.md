@@ -34,11 +34,12 @@ permalink: /publications/
       <!-- Chart bars container -->
       <div style="display: flex; align-items: flex-end; gap: 0.5rem; justify-content: center; flex-wrap: nowrap; width: 100%; margin-bottom: 0.5rem; height: 250px; padding-bottom: 2rem;">
         {% for year_num in sorted_years %}
-          {% assign year_str = year_num | append: '' %}
           {% assign count = 0 %}
-          {% for year in publications_by_year %}
-            {% if year[0] == year_str %}
-              {% assign count = year[1] | size %}
+          {% for year_entry in publications_by_year %}
+            {% assign year_key = year_entry[0] %}
+            {% assign year_key_num = year_key | plus: 0 %}
+            {% if year_key_num == year_num %}
+              {% assign count = year_entry[1] | size %}
             {% endif %}
           {% endfor %}
           {% if count > 0 %}
@@ -56,11 +57,11 @@ permalink: /publications/
           {% endif %}
           <div style="flex: 1; min-width: 50px; max-width: 80px; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
             {% if count > 0 %}
-            <div style="background: linear-gradient(to top, #4a90e2 0%, #357abd 100%); height: {{ bar_height }}px; width: 80%; min-width: 30px; min-height: 20px; border-radius: 4px 4px 0 0; position: relative; transition: opacity 0.3s; box-sizing: border-box;" title="{{ count }} publication{% if count != 1 %}s{% endif %} in {{ year_str }}">
+            <div style="background: linear-gradient(to top, #4a90e2 0%, #357abd 100%); height: {{ bar_height }}px; width: 80%; min-width: 30px; min-height: 20px; border-radius: 4px 4px 0 0; position: relative; transition: opacity 0.3s; box-sizing: border-box;" title="{{ count }} publication{% if count != 1 %}s{% endif %} in {{ year_num }}">
               <span style="position: absolute; top: -1.5rem; left: 50%; transform: translateX(-50%); font-size: 0.85rem; font-weight: 600; color: #e0e0e0; white-space: nowrap; z-index: 1;">{{ count }}</span>
             </div>
             {% else %}
-            <div style="background: transparent; height: 0px; width: 80%; min-width: 30px; border-radius: 4px 4px 0 0; position: relative; opacity: 0.3;" title="0 publications in {{ year_str }}">
+            <div style="background: transparent; height: 0px; width: 80%; min-width: 30px; border-radius: 4px 4px 0 0; position: relative; opacity: 0.3;" title="0 publications in {{ year_num }}">
             </div>
             {% endif %}
           </div>
