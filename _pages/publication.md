@@ -9,6 +9,37 @@ permalink: /publications/
     <h2>Our Recent Publications</h2>
   </header>
   
+  <!-- Publication Timeline Graph -->
+  <div style="margin: 2rem 0 3rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px;">
+    <h3 style="margin-top: 0; margin-bottom: 1.5rem; font-size: 1.1rem; color: #333;">Publications by Year</h3>
+    <div style="display: flex; align-items: flex-end; gap: 0.5rem; flex-wrap: wrap; justify-content: center;">
+      {% assign publications_by_year = site.data.publication %}
+      {% assign max_count = 0 %}
+      {% for year in publications_by_year %}
+        {% assign count = year[1] | size %}
+        {% if count > max_count %}
+          {% assign max_count = count %}
+        {% endif %}
+      {% endfor %}
+      {% assign max_height = 200 %}
+      {% for year in publications_by_year %}
+        {% assign count = year[1] | size %}
+        {% assign bar_height = count | times: max_height | divided_by: max_count %}
+        {% if bar_height < 20 and count > 0 %}
+          {% assign bar_height = 20 %}
+        {% endif %}
+        <div style="flex: 1; min-width: 50px; max-width: 80px; text-align: center;">
+          <div style="background: linear-gradient(to top, #4a90e2 0%, #357abd 100%); height: {{ bar_height }}px; border-radius: 4px 4px 0 0; margin-bottom: 0.5rem; position: relative; transition: opacity 0.3s; {% if count == 0 %}opacity: 0.3;{% endif %}" title="{{ count }} publication{% if count != 1 %}s{% endif %} in {{ year[0] }}">
+            {% if count > 0 %}
+            <span style="position: absolute; top: -1.5rem; left: 50%; transform: translateX(-50%); font-size: 0.85rem; font-weight: 600; color: #333; white-space: nowrap;">{{ count }}</span>
+            {% endif %}
+          </div>
+          <div style="font-size: 0.9rem; color: #666; font-weight: 500;">{{ year[0] }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  
   {% assign publications_by_year = site.data.publication %}
   {% for year in publications_by_year %}
     <article class="publication-year">
