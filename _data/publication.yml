@@ -57,7 +57,7 @@
   - title: "Artificial Intelligence in Program Evaluation: Insights and Applications"
     author: "S Shapiro, V Lam"
     journal: "Canadian Journal of Program Evaluation 39 (2), 382-391"
-    image: "/assets/images/papers/utppublishing.com_doi_10.3138_cjpe-2024-0027.png"
+    image: "/assets/images/papers/research.jpg"
     url: "https://utpjournals.press/doi/10.3138/cjpe-2024-0027"
 
   - title: "Breaking New Ground: Sofvie’s Role in Advancing Health & Safety Standards in the Mining Sector"
@@ -75,7 +75,7 @@
   - title: "Evaluating Safe Region Sizes for Accuracy in Approximate Continuous Nearest Neighbour Queries"
     author: "W Osborn"
     journal: "Procedia Computer Science 251, 91-98"
-    image: "/assets/images/papers/sciencedirect.com_S1877050924033222.png"
+    image: "/assets/images/papers/research.jpg"
     url: "https://www.sciencedirect.com/science/article/pii/S1877050924033222"
 
   - title: "Exploring Alternatives to APIs: Diverse Approaches to Data Collection"
@@ -93,7 +93,7 @@
   - title: "Identifying and Detecting Inaccurate Stack Traces in Bug Reports"
     author: "MK Bheree, J Anvik"
     conference: "7th International Conference on Software and System Engineering (ICoSSE)"
-    image: "/assets/images/papers/ieeexplore.ieee.org_abstract_document_10608359.png"
+    image: "/assets/images/papers/research.jpg"
     url: "https://ieeexplore.ieee.org/abstract/document/10608359"
 
   - title: "Learning Software Engineering Principles with Program Wars v. 3.0"
@@ -130,7 +130,7 @@
   - title: "Ensemble Methods for Spatial Data Stream Classification"
     author: "L King, W Osborn"
     journal: "Procedia Computer Science 224, 155-162"
-    image: "/assets/images/papers/sciencedirect.com_S1877050923010700.png"
+    image: "/assets/images/papers/research.jpg"
     url: "https://www.sciencedirect.com/science/article/pii/S1877050923010700"
 
   - title: "The Effects of Scale and Distribution on a Deep Neural Network Iterative Classification System of Spatial Data Streams"
