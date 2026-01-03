@@ -20,4 +20,9 @@ Masters:
       image: "/assets/images/students/prasanta.jpg"
       supervisedBy: "Dr. Wendy Osborn"
 
+    - name: "Olanrewaju Oladokun"
+      role: "Masters Student"
+      image: "/assets/images/students/olan.jpg"
+      supervisedBy: "Dr. Jackie Rice"
+
   
