@@ -48,12 +48,7 @@ layout: archive
         <div class="card-content">
           <h2 class="card-title">{{ person.name }}</h2>
           <p class="card-role">{{ person.role }}</p>
-          {% if faculty[0] == 'Faculty'%}
-          <p class="card-role"> {{ person.description }}</p>
-          {% else %}
-           <p class="card-role"> Supervised By: <strong>{{person.supervisedBy}} </strong> </p>
-          {% endif %}
-
+          <p class="card-role"> Supervised By: <strong>{{ person.supervisedBy }}</strong> </p>
           {% if person.link %}
             <a href="{{ person.link }}" class="card-link">Learn More</a>
           {% endif %}
