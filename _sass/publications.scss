@@ -76,6 +76,147 @@
   gap: 20px;
 }
 
+/* Publications table format */
+.publications-table-container {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.publications-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.publications-table thead {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+}
+
+.publications-table th {
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-bottom: 2px solid #444;
+}
+
+.publications-table tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.2s ease;
+}
+
+.publications-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.publications-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.publication-image-cell {
+  padding: 10px 15px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.publication-thumbnail {
+  max-width: 100px;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.publication-citation-cell {
+  padding: 15px;
+  vertical-align: top;
+}
+
+.publication-citation {
+  line-height: 1.6;
+}
+
+.publication-title {
+  font-size: 1em;
+  color: #2d2d2d;
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+.publication-authors {
+  font-size: 0.9em;
+  color: #555;
+  font-style: italic;
+}
+
+.publication-venue {
+  font-size: 0.85em;
+  color: #666;
+  display: block;
+  margin-top: 0.2em;
+}
+
+.publication-year-label {
+  font-size: 0.85em;
+  color: #888;
+  font-weight: 500;
+}
+
+.publication-link-cell {
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.publication-table-link {
+  display: inline-block;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #4a90e2;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.publication-table-link:hover {
+  transform: scale(1.2);
+  color: #357abd;
+}
+
+.publication-no-link {
+  color: #ccc;
+  font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+  .publications-table {
+    font-size: 0.85em;
+  }
+  
+  .publications-table th,
+  .publications-table td {
+    padding: 8px 10px;
+  }
+  
+  .publication-thumbnail {
+    max-width: 60px;
+    max-height: 80px;
+  }
+  
+  .publication-image-cell {
+    width: 80px;
+  }
+  
+  .publication-link-cell {
+    width: 60px;
+  }
+}
+
 /* filepath: /workspaces/minimal-mistakes/assets/css/team.scss */
 .phd-container {
   display: flex;
