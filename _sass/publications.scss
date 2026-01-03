@@ -4,28 +4,33 @@
 }
 
 .publications-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr; /* Single column on mobile */
+  }
 }
 
 .publication-tile {
   display: flex;
   flex-direction: row; /* Align items in a row */
   border: 1px solid #ddd;
-  padding: 20px;
+  padding: 15px; /* Reduced from 20px (25% smaller) */
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: left;
-  margin-bottom: 20px; /* Adds space after each publication tile */
+  margin-bottom: 0; /* Removed since gap handles spacing */
 }
 
 .publication-image {
-  margin-right: 20px; /* Adds space between the image and content */
+  margin-right: 15px; /* Reduced from 20px (25% smaller) */
+  flex-shrink: 0;
 }
 
 .publication-image img {
-  max-width: 150px; /* Set a fixed width for the image */
+  max-width: 112px; /* Reduced from 150px (25% smaller) */
   height: auto;
   border-radius: 5px;
 }
@@ -37,24 +42,25 @@
   justify-content: center; /* Center the content vertically */
 }
 
-.publication-content h3 {
-  font-size: 1.5em;
-  margin: 10px 0;
+.publication-content h4 {
+  font-size: 1.125em; /* Reduced from 1.5em (25% smaller) */
+  margin: 8px 0; /* Reduced from 10px */
 }
 
 .publication-content p {
-  font-size: 1em;
-  margin: 5px 0;
+  font-size: 0.875em; /* Reduced from 1em (12.5% smaller, close to 25%) */
+  margin: 4px 0; /* Reduced from 5px */
 }
 
 .publication-link {
   display: inline-block;
-  margin-top: 10px;
-  padding: 10px 20px;
+  margin-top: 8px; /* Reduced from 10px */
+  padding: 8px 15px; /* Reduced from 10px 20px (25% smaller) */
   background-color: #f0f0f0; /* Change background color */
   color: #333;
   text-decoration: none;
   border-radius: 5px;
+  font-size: 0.875em; /* Reduced font size */
   transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for hover effect */
 }
 
