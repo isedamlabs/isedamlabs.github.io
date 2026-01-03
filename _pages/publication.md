@@ -21,6 +21,9 @@ permalink: /publications/
           {% assign max_count = count %}
         {% endif %}
       {% endfor %}
+      {% if max_count == 0 %}
+        {% assign max_count = 1 %}
+      {% endif %}
       {% assign max_height = 200 %}
       {% assign years_array = '' | split: '' %}
       {% for year in publications_by_year %}
@@ -29,25 +32,38 @@ permalink: /publications/
       {% endfor %}
       {% assign sorted_years = years_array | sort %}
       <!-- Chart bars container -->
-      <div style="display: flex; align-items: flex-end; gap: 0.5rem; justify-content: center; flex-wrap: nowrap; width: 100%; margin-bottom: 0.5rem; min-height: 220px; padding-bottom: 2rem;">
+      <div style="display: flex; align-items: flex-end; gap: 0.5rem; justify-content: center; flex-wrap: nowrap; width: 100%; margin-bottom: 0.5rem; height: 250px; padding-bottom: 2rem;">
         {% for year_num in sorted_years %}
           {% assign year_str = year_num | append: '' %}
+          {% assign count = 0 %}
           {% for year in publications_by_year %}
             {% if year[0] == year_str %}
               {% assign count = year[1] | size %}
-              {% assign bar_height = count | times: max_height | divided_by: max_count %}
-              {% if bar_height < 20 and count > 0 %}
-                {% assign bar_height = 20 %}
-              {% endif %}
-              <div style="flex: 1; min-width: 50px; max-width: 80px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: flex-end;">
-                <div style="background: linear-gradient(to top, #4a90e2 0%, #357abd 100%); height: {{ bar_height }}px; width: 80%; min-width: 30px; border-radius: 4px 4px 0 0; position: relative; transition: opacity 0.3s; {% if count == 0 %}opacity: 0.3;{% endif %}" title="{{ count }} publication{% if count != 1 %}s{% endif %} in {{ year[0] }}">
-                  {% if count > 0 %}
-                  <span style="position: absolute; top: -1.5rem; left: 50%; transform: translateX(-50%); font-size: 0.85rem; font-weight: 600; color: #e0e0e0; white-space: nowrap;">{{ count }}</span>
-                  {% endif %}
-                </div>
-              </div>
             {% endif %}
           {% endfor %}
+          {% if count > 0 %}
+            {% if max_count > 0 %}
+              {% assign bar_height_calc = count | times: max_height %}
+              {% assign bar_height = bar_height_calc | divided_by: max_count %}
+            {% else %}
+              {% assign bar_height = max_height %}
+            {% endif %}
+            {% if bar_height < 20 %}
+              {% assign bar_height = 20 %}
+            {% endif %}
+          {% else %}
+            {% assign bar_height = 0 %}
+          {% endif %}
+          <div style="flex: 1; min-width: 50px; max-width: 80px; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            {% if count > 0 %}
+            <div style="background: linear-gradient(to top, #4a90e2 0%, #357abd 100%); height: {{ bar_height }}px; width: 80%; min-width: 30px; min-height: 20px; border-radius: 4px 4px 0 0; position: relative; transition: opacity 0.3s; box-sizing: border-box;" title="{{ count }} publication{% if count != 1 %}s{% endif %} in {{ year_str }}">
+              <span style="position: absolute; top: -1.5rem; left: 50%; transform: translateX(-50%); font-size: 0.85rem; font-weight: 600; color: #e0e0e0; white-space: nowrap; z-index: 1;">{{ count }}</span>
+            </div>
+            {% else %}
+            <div style="background: transparent; height: 0px; width: 80%; min-width: 30px; border-radius: 4px 4px 0 0; position: relative; opacity: 0.3;" title="0 publications in {{ year_str }}">
+            </div>
+            {% endif %}
+          </div>
         {% endfor %}
       </div>
       <!-- X-axis labels (years) -->
@@ -63,54 +79,78 @@ permalink: /publications/
   </div>
   
   {% assign publications_by_year = site.data.publication %}
+  {% assign sorted_years_pubs = '' | split: '' %}
   {% for year in publications_by_year %}
-    <article class="publication-year">
-      <header>
-        <h3>{{ year[0] }}</h3>
-      </header>
-      <div class="publications-list">
-        {% for publication in year[1] %}
-          <article class="publication-tile">
-            {% if publication.image %}
-              <figure class="publication-image">
-                <img src="{{ publication.image }}" alt="{{ publication.title }}">
-              </figure>
-            {% endif %}
-            <div class="publication-content">
-              <h4>{{ publication.title }}</h4>
-              <p><strong>Author(s):</strong> {{ publication.author }}</p>
-              {% if publication.journal %}
-                <p><strong>Journal:</strong> {{ publication.journal }}</p>
-              {% endif %}
-              {% if publication.conference %}
-                <p><strong>Conference:</strong> {{ publication.conference }}</p>
-              {% endif %}
-              {% if publication.url %}
-                <p>
-                  <a href="{{ publication.url }}" class="publication-link" target="_blank" rel="noopener noreferrer">Read the Article</a>
-                </p>
-              {% else %}
-                {% assign associated_articles = site.articles | where: "publication_title", publication.title %}
-                {% if associated_articles.size > 0 %}
-                  <div class="associated-articles">
-                    <h5>Associated Articles</h5>
-                    <ul>
-                      {% for article in associated_articles %}
-                        <li><a href="{{ article.url }}">{{ article.title }}</a></li>
-                      {% endfor %}
-                    </ul>
-                  </div>
-                {% else %}
-                  <p>
-                    <a href="{{ publication.link }}" class="publication-link">Read more</a>
-                  </p>
-                {% endif %}
-              {% endif %}
-            </div>
-          </article>
-        {% endfor %}
-      </div>
-    </article>
+    {% assign year_num = year[0] | plus: 0 %}
+    {% assign sorted_years_pubs = sorted_years_pubs | push: year_num %}
+  {% endfor %}
+  {% assign sorted_years_pubs = sorted_years_pubs | sort | reverse %}
+  
+  {% for year_num in sorted_years_pubs %}
+    {% assign year_str = year_num | append: '' %}
+    {% for year in publications_by_year %}
+      {% if year[0] == year_str %}
+        <article class="publication-year">
+          <header>
+            <h3>{{ year[0] }}</h3>
+          </header>
+          <div class="publications-table-container">
+            <table class="publications-table">
+              <thead>
+                <tr>
+                  <th style="width: 120px;">Image</th>
+                  <th>Citation (APA 7th Edition)</th>
+                  <th style="width: 100px;">Link</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for publication in year[1] %}
+                  <tr class="publication-row">
+                    <td class="publication-image-cell">
+                      {% if publication.image %}
+                        <img src="{{ publication.image }}" alt="{{ publication.title }}" class="publication-thumbnail">
+                      {% else %}
+                        <img src="/assets/images/papers/research.jpg" alt="Research paper" class="publication-thumbnail">
+                      {% endif %}
+                    </td>
+                    <td class="publication-citation-cell">
+                      <div class="publication-citation">
+                        <strong class="publication-title">{{ publication.title }}</strong>
+                        <br>
+                        <span class="publication-authors">{{ publication.author }}</span>
+                        {% if publication.journal %}
+                          <br><span class="publication-venue">{{ publication.journal }}</span>
+                        {% endif %}
+                        {% if publication.conference %}
+                          <br><span class="publication-venue">{{ publication.conference }}</span>
+                        {% endif %}
+                        <br><span class="publication-year-label">({{ year[0] }})</span>
+                      </div>
+                    </td>
+                    <td class="publication-link-cell">
+                      {% if publication.url %}
+                        <a href="{{ publication.url }}" class="publication-table-link" target="_blank" rel="noopener noreferrer" title="Read the article">📄</a>
+                      {% else %}
+                        {% assign associated_articles = site.articles | where: "publication_title", publication.title %}
+                        {% if associated_articles.size > 0 %}
+                          <a href="{{ associated_articles.first.url }}" class="publication-table-link" title="Read more">📄</a>
+                        {% else %}
+                          {% if publication.link %}
+                            <a href="{{ publication.link }}" class="publication-table-link" title="Read more">📄</a>
+                          {% else %}
+                            <span class="publication-no-link">—</span>
+                          {% endif %}
+                        {% endif %}
+                      {% endif %}
+                    </td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </article>
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </section>
 

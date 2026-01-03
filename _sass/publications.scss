@@ -69,6 +69,13 @@
   transform: translateY(-2px); /* Slightly lift the button on hover */
 }
 
+/* Thesis-dissertation single column layout */
+.thesis-list {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column */
+  gap: 20px;
+}
+
 /* filepath: /workspaces/minimal-mistakes/assets/css/team.scss */
 .phd-container {
   display: flex;

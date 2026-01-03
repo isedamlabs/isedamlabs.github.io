@@ -8,7 +8,7 @@ permalink: /thesis-dissertation/
   <header>
     <h2>Thesis and Dissertation</h2>
   </header>
-  <div class="publications-list">
+  <div class="thesis-list">
     {% assign thesis_dissertation = site.data["thesis-dissertation"] %}
     {% for year in thesis_dissertation %}
       {% for thesis in year[1] %}
