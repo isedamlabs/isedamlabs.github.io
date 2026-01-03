@@ -79,78 +79,78 @@ permalink: /publications/
   </div>
   
   {% assign publications_by_year = site.data.publication %}
-  {% assign sorted_years_pubs = '' | split: '' %}
-  {% for year in publications_by_year %}
-    {% assign year_num = year[0] | plus: 0 %}
-    {% assign sorted_years_pubs = sorted_years_pubs | push: year_num %}
+  {% assign years_array_pubs = '' | split: '' %}
+  {% for year_entry in publications_by_year %}
+    {% assign year_key = year_entry[0] %}
+    {% assign year_num = year_key | plus: 0 %}
+    {% assign years_array_pubs = years_array_pubs | push: year_num %}
   {% endfor %}
-  {% assign sorted_years_pubs = sorted_years_pubs | sort | reverse %}
+  {% assign sorted_years_pubs = years_array_pubs | sort | reverse %}
   
   {% for year_num in sorted_years_pubs %}
-    {% assign year_str = year_num | append: '' %}
-    {% for year in publications_by_year %}
-      {% if year[0] == year_str %}
-        <article class="publication-year">
-          <header>
-            <h3>{{ year[0] }}</h3>
-          </header>
-          <div class="publications-table-container">
-            <table class="publications-table">
-              <thead>
-                <tr>
-                  <th style="width: 120px;">Image</th>
-                  <th>Citation (APA 7th Edition)</th>
-                  <th style="width: 100px;">Link</th>
-                </tr>
-              </thead>
-              <tbody>
-                {% for publication in year[1] %}
-                  <tr class="publication-row">
-                    <td class="publication-image-cell">
-                      {% if publication.image %}
-                        <img src="{{ publication.image }}" alt="{{ publication.title }}" class="publication-thumbnail">
-                      {% else %}
-                        <img src="/assets/images/papers/research.jpg" alt="Research paper" class="publication-thumbnail">
+    {% assign year_key = year_num | append: '' %}
+    {% assign year_publications = publications_by_year[year_key] %}
+    {% if year_publications.size > 0 %}
+      <article class="publication-year">
+        <header>
+          <h3>{{ year_key }}</h3>
+        </header>
+        <div class="publications-table-container">
+          <table class="publications-table">
+            <thead>
+              <tr>
+                <th style="width: 120px;">Image</th>
+                <th>Citation (APA 7th Edition)</th>
+                <th style="width: 100px;">Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for publication in year_publications %}
+                <tr class="publication-row">
+                  <td class="publication-image-cell">
+                    {% if publication.image %}
+                      <img src="{{ publication.image }}" alt="{{ publication.title }}" class="publication-thumbnail">
+                    {% else %}
+                      <img src="/assets/images/papers/research.jpg" alt="Research paper" class="publication-thumbnail">
+                    {% endif %}
+                  </td>
+                  <td class="publication-citation-cell">
+                    <div class="publication-citation">
+                      <strong class="publication-title">{{ publication.title }}</strong>
+                      <br>
+                      <span class="publication-authors">{{ publication.author }}</span>
+                      {% if publication.journal %}
+                        <br><span class="publication-venue">{{ publication.journal }}</span>
                       {% endif %}
-                    </td>
-                    <td class="publication-citation-cell">
-                      <div class="publication-citation">
-                        <strong class="publication-title">{{ publication.title }}</strong>
-                        <br>
-                        <span class="publication-authors">{{ publication.author }}</span>
-                        {% if publication.journal %}
-                          <br><span class="publication-venue">{{ publication.journal }}</span>
-                        {% endif %}
-                        {% if publication.conference %}
-                          <br><span class="publication-venue">{{ publication.conference }}</span>
-                        {% endif %}
-                        <br><span class="publication-year-label">({{ year[0] }})</span>
-                      </div>
-                    </td>
-                    <td class="publication-link-cell">
-                      {% if publication.url %}
-                        <a href="{{ publication.url }}" class="publication-table-link" target="_blank" rel="noopener noreferrer" title="Read the article">📄</a>
+                      {% if publication.conference %}
+                        <br><span class="publication-venue">{{ publication.conference }}</span>
+                      {% endif %}
+                      <br><span class="publication-year-label">({{ year_key }})</span>
+                    </div>
+                  </td>
+                  <td class="publication-link-cell">
+                    {% if publication.url %}
+                      <a href="{{ publication.url }}" class="publication-table-link" target="_blank" rel="noopener noreferrer" title="Read the article">📄</a>
+                    {% else %}
+                      {% assign associated_articles = site.articles | where: "publication_title", publication.title %}
+                      {% if associated_articles.size > 0 %}
+                        <a href="{{ associated_articles.first.url }}" class="publication-table-link" title="Read more">📄</a>
                       {% else %}
-                        {% assign associated_articles = site.articles | where: "publication_title", publication.title %}
-                        {% if associated_articles.size > 0 %}
-                          <a href="{{ associated_articles.first.url }}" class="publication-table-link" title="Read more">📄</a>
+                        {% if publication.link %}
+                          <a href="{{ publication.link }}" class="publication-table-link" title="Read more">📄</a>
                         {% else %}
-                          {% if publication.link %}
-                            <a href="{{ publication.link }}" class="publication-table-link" title="Read more">📄</a>
-                          {% else %}
-                            <span class="publication-no-link">—</span>
-                          {% endif %}
+                          <span class="publication-no-link">—</span>
                         {% endif %}
                       {% endif %}
-                    </td>
-                  </tr>
-                {% endfor %}
-              </tbody>
-            </table>
-          </div>
-        </article>
-      {% endif %}
-    {% endfor %}
+                    {% endif %}
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </article>
+    {% endif %}
   {% endfor %}
 </section>
 
