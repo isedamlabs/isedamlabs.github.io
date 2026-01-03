@@ -18,7 +18,7 @@
     institution: "University of Lethbridge"
     year: 2024
     link: "https://opus.uleth.ca/items/59337749-1857-499a-a8c3-78dff9670384/full"
-    image: "/assets/images/thesis/thesis2.jpg"
+    image: "/assets/images/papers/research.jpg"
 
 2023:
   - title: "Measuring Developer Experience With Abstract Syntax Trees"
