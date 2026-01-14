@@ -39,6 +39,12 @@ Master Students:
      image: "/assets/images/students/daniel.jpg"
      description: "Dr. Sidney Shapiro"
 
+   - name: "Md Jamiur Rahman Rifat (he/him)"
+     role: "Masters Student"
+     image: "/assets/images/students/Jamiur.png"
+     description: "Dr. John Anvik"
+     link: "https://jamiur.me/"
+
    
 PhD Students and Candidates:
    - name: "Md. Mohsin Uddin"
