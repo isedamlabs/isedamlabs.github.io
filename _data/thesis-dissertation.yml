@@ -1,3 +1,33 @@
+2026:
+  - title: "Duplicate detection using LLM-generated bug report summaries"
+    author: "Pokhrel, Sudip"
+    institution: "University of Lethbridge"
+    year: 2026
+    link: "https://opus.uleth.ca/items/817f1350-e8aa-47b5-8913-84bfd7148a3c"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Making Sense of the Machine: A Sensemaking Analysis of AI Adoption Among Independent Consultants in Southern Alberta"
+    author: "Pearson, Daniel"
+    institution: "University of Lethbridge"
+    year: 2026
+    link: "https://opus.uleth.ca/items/7afed87f-561c-415c-ac9c-fcf05981592b"
+    image: "/assets/images/papers/research.jpg"
+
+2025:
+  - title: "Investigating the impact of programming styles to improve code quality using machine learning and sociolinguistic features"
+    author: "Abdullah, Deen Mohammad"
+    institution: "University of Lethbridge"
+    year: 2025
+    link: "https://opus.uleth.ca/items/5501946c-589f-43a2-9a26-0414bcdbfe03/full"
+    image: "/assets/images/papers/research.jpg"
+
+  - title: "Improving software security via the use of pre-trained code large language models in vulnerabilities detection"
+    author: "Oladokun, Olanrewaju E."
+    institution: "University of Lethbridge"
+    year: 2025
+    link: "https://opus.uleth.ca/items/fb2f5249-0b3c-40fd-bac1-84b287fa2bd1"
+    image: "/assets/images/papers/research.jpg"
+
 2024:
   - title: "Ensemble methods for spatial data stream classification with application to emergency services"
     author: "Bhattacharjee, Prasanta"

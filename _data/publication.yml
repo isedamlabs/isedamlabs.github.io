@@ -1,3 +1,82 @@
+2026:
+  - title: "ITS DevSecOps Adventure: Simulating DevSecOps Process and Practices in the Classroom"
+    author: "J Anvik"
+    conference: "Proceedings of the 28th Western Canadian Conference on Computing Education, 1-2"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://scholar.google.com/citations?user=cvZuNgoAAAAJ&hl=en"
+
+  - title: "MVC-ARENA: Gamifying MVC Architecture and Clean Programming Practices"
+    author: "Md Jamiur Rahman Rifat, J Anvik"
+    conference: "Western Canadian Conference on Computing Education (WCCCE 2026) Poster"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://event.fourwaves.com/wccce2026/abstracts/d3317384-6641-4ab7-9720-a4f7c834c74a"
+
+  - title: "Vibe Coding, Domain Expertise, and Generative AI: What the \"Gary\" Case Reveals for Managers"
+    author: "S Shapiro, D Pearson"
+    journal: "Rutgers Business Review 11 (1), 54-68"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://rbr.business.rutgers.edu/publication/spring-2026-volume-11-number-1"
+
+  - title: "AI-Assisted Evaluations and EDI: How Temperature Settings Influence Reliability, Bias, and Inclusion"
+    author: "S Shapiro, AKMI Khalid"
+    journal: "Canadian Journal of Program Evaluation 40 (1), 1-11"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://doi.org/10.18357/cjpe.2026.40.1.23"
+
+  - title: "Critical Reflection on Educator Experiences of Negotiated Grading"
+    author: "L Killam, S Shapiro, J Corcoran"
+    journal: "The Canadian Journal for the Scholarship of Teaching and Learning 17 (1)"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://www.cjsotl-rcacea.ca/"
+
+  - title: "Building AI Capacity Through Coding Fundamentals: An AI-Augmented Coding Activity for Teens Using Python, Data Structures, and Verification Practices"
+    author: "S Shapiro"
+    journal: "Journal of Technology-Integrated Lessons and Teaching 5 (1), 88-93"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://scholar.google.com/citations?user=i11mvL0AAAAJ&hl=en"
+
+  - title: "Community Based Marketing Strategy Expanding Malayali360"
+    author: "S Shapiro, B Panvelwala"
+    journal: "Open Access Teaching Case Journal (OATCJ) 4 (1)"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://scholar.google.com/citations?user=i11mvL0AAAAJ&hl=en"
+
+  - title: "Building mastery, governing ecosystems, and measuring what matters: Managing AI-enabled education enterprises"
+    author: "S Shapiro, MA Price"
+    journal: "Managing AI-Enabled Education Enterprises: Strategy, Performance, and Responsible Innovation"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://scholar.google.com/citations?user=i11mvL0AAAAJ&hl=en"
+
+  - title: "Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes"
+    author: "D Pearson, S Shapiro, ESG Venegas, S Al-Khatib, APA Arzola"
+    journal: "arXiv preprint arXiv:2607.19297"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://arxiv.org/abs/2607.19297"
+
+  - title: "Pandas for Reproducible Data Analysis: From Spreadsheets to Research-Grade Python Workflows"
+    author: "S Shapiro, D Pearson, ESG Venegas"
+    journal: "arXiv preprint arXiv:2606.14924"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://arxiv.org/abs/2606.14924"
+
+  - title: "From Patent Expiry to Business Pathways: AI Workflows for Activating Innovation Archives"
+    author: "S Shapiro, M Price"
+    journal: "arXiv preprint arXiv:2607.10179"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://arxiv.org/abs/2607.10179"
+
+  - title: "Prophet as a Reproducible Forecasting Framework: A Methodological Guide for Business and Financial Analytics"
+    author: "S Shapiro, B Panvelwala"
+    journal: "arXiv preprint arXiv:2601.05929"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://arxiv.org/abs/2601.05929"
+
+  - title: "On-Premises Multi-Course RAG Tutoring for Business Education: Hardware-Software Trade-offs in a Campus AI Tutor"
+    author: "S Shapiro, J Lindemann"
+    journal: "arXiv preprint arXiv:2610.02510"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://arxiv.org/abs/2610.02510"
+
 2025:
   - title: "A Spatial Data Stream Ensemble for Prediction of Emergency Service Priorities"
     author: "P Bhattacharjee, W Osborn"
@@ -22,6 +101,36 @@
     conference: "International Conference on Network-Based Information Systems, 269-280"
     image: "/assets/images/papers/research.jpg"
     url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=k_OMJUUAAAAJ&citation_for_view=k_OMJUUAAAAJ:q3CdL3IzO_QC"
+
+  - title: "How Effective are pretrained Programming Language-based Language Models (PLLMs) in the Detection of Android Vulnerabilities?"
+    author: "O Oladokun, JE Rice"
+    conference: "IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://doi.org/10.1109/ccece64018.2025.11364452"
+
+  - title: "Do sociolinguistic factors influence program writing styles?"
+    author: "DM Abdullah, SB Zinnat, JE Rice"
+    conference: "International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA)"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://doi.org/10.1109/acdsa65407.2025.11166532"
+
+  - title: "How Software Development Professionals Perceive the Use of Code Reviewer Recommendation Systems"
+    author: "P Halvadia, J Anvik"
+    conference: "2025 8th International Conference on Software and System Engineering (ICoSSE)"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://doi.org/10.1109/icosse65712.2025.00017"
+
+  - title: "Investigating How Course Features Correlate with Student Perceptions of Two-Stage CS Exams"
+    author: "C Latulipe, S McIntyre, J Anvik, K Lin, S Nowrin, BP Railing, SJ Reckinger, et al."
+    conference: "Proceedings of the 30th ACM Conference on Innovation and Technology in Computer Science Education"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://scholar.google.com/citations?user=cvZuNgoAAAAJ&hl=en"
+
+  - title: "Two-Stage CS Exams: A Multi-Institutional Study of Course and Exam Feature Impacts on Student Perceptions and Performance"
+    author: "C Latulipe, J Anvik, K Lin, S Nowrin, BP Railing, SJ Reckinger, et al."
+    conference: "2025 Working Group Reports on Innovation and Technology in Computer Science Education"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://scholar.google.com/citations?user=cvZuNgoAAAAJ&hl=en"
 
   - title: "Understanding and Deobfuscating Textual Data: Managerial Insights and Computational Challenges"
     author: "S Shapiro, V Lam"
@@ -52,6 +161,54 @@
     journal: "Family Relations"
     image: "/assets/images/papers/onlinelibrary.wiley.com_doi_10.1111_fare.13167.png"
     url: "https://onlinelibrary.wiley.com/doi/full/10.1111/fare.13167"
+
+  - title: "Leveraging Generative AI in Academic Libraries: A Case Study of the AI Story Idea Generator at the University of Lethbridge"
+    author: "S Shapiro, S McAlorum"
+    journal: "Journal of Open Initiatives in Academic Libraries 1 (1), 138-154"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://joi-ojs-txstate.tdl.org/joi/article/view/25"
+
+  - title: "Bridging the AI Divide: Equity, Integrity, and the Governance of Generative AI in Higher Education"
+    author: "SJ Shapiro, VD Lam"
+    journal: "Rethinking Education and Agency in the Age of Human-Generative AI Interaction, 183-220"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://scholar.google.com/citations?user=i11mvL0AAAAJ&hl=en"
+
+  - title: "Hybrid quantum-classical machine learning with PennyLane: A comprehensive guide for computational research"
+    author: "S Shapiro"
+    journal: "arXiv preprint arXiv:2511.14786"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://arxiv.org/abs/2511.14786"
+
+  - title: "HQPEF-Py: Metrics, Python Patterns, and Guidance for Evaluating Hybrid Quantum Programs"
+    author: "MA Osei, S Shapiro"
+    journal: "arXiv preprint arXiv:2511.18506"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://arxiv.org/abs/2511.18506"
+
+  - title: "Pattern-Based File and Data Access with Python Glob: A Comprehensive Guide for Computational Research"
+    author: "S Shapiro"
+    journal: "arXiv preprint arXiv:2509.08843"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://arxiv.org/abs/2509.08843"
+
+  - title: "ImmiCan: Scaling Social Innovation for Foreign-Trained Physicians in Canada"
+    author: "D Pearson, S Shapiro"
+    conference: "NACRA 2025 Annual Conference"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://scholar.google.com/citations?user=i11mvL0AAAAJ&hl=en"
+
+  - title: "Fledge: The Empathy Algorithm – Balancing Mission and Growth in the Age of AI"
+    author: "S Shapiro, D Pearson, A Sugeng"
+    conference: "NACRA 2025 Annual Conference"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://scholar.google.com/citations?user=i11mvL0AAAAJ&hl=en"
+
+  - title: "Chasing Rainbows: Building an Ammolite Adventure from Riverbeds to Retail"
+    author: "S Shapiro, D Pearson, K Zaremba, L Kovalski, Y Ziuzko"
+    conference: "NACRA 2025 Annual Conference"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://scholar.google.com/citations?user=i11mvL0AAAAJ&hl=en"
 
 2024:
   - title: "Artificial Intelligence in Program Evaluation: Insights and Applications"
@@ -95,6 +252,12 @@
     conference: "7th International Conference on Software and System Engineering (ICoSSE)"
     image: "/assets/images/papers/research.jpg"
     url: "https://ieeexplore.ieee.org/abstract/document/10608359"
+
+  - title: "Comparing Machine Learning and Feature Selection Approaches for Automated Bug Report Assignment (P)"
+    author: "FY Omee, J Anvik"
+    conference: "SEKE, 19"
+    image: "/assets/images/papers/research.jpg"
+    url: "https://doi.org/10.18293/seke2024-005"
 
   - title: "Learning Software Engineering Principles with Program Wars v. 3.0"
     author: "MH Tareque, J Anvik"

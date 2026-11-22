@@ -24,21 +24,6 @@ Faculty:
       link: "https://www.sidneyshapiro.com/"
 
 Master Students:
-   - name: "Sudip Pokhrel"
-     role: "Masters Student"
-     image: "/assets/images/students/sudip.jpeg"
-     description: "Dr. John Anvik"
-
-   - name: "Micheal Enigbokan"
-     role: "Masters Student"
-     image: "/assets/images/students/micheal.jpeg"
-     description: "Dr. Sidney Shapiro"
-
-   - name: "Daniel Pearson"
-     role: "Masters Student"
-     image: "/assets/images/students/daniel.jpg"
-     description: "Dr. Sidney Shapiro"
-
    - name: "Md Jamiur Rahman Rifat (he/him)"
      role: "Masters Student"
      image: "/assets/images/students/Jamiur.png"

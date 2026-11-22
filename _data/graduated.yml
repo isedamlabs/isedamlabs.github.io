@@ -5,6 +5,21 @@ PhD:
       supervisedBy: "Dr. Jackie Rice"
 
 Masters:
+    - name: "Sudip Pokhrel"
+      role: "Masters Student"
+      image: "/assets/images/students/sudip.jpeg"
+      supervisedBy: "Dr. John Anvik"
+
+    - name: "Micheal Enigbokan"
+      role: "Masters Student"
+      image: "/assets/images/students/micheal.jpeg"
+      supervisedBy: "Dr. Sidney Shapiro"
+
+    - name: "Daniel Pearson"
+      role: "Masters Student"
+      image: "/assets/images/students/daniel.jpg"
+      supervisedBy: "Dr. Sidney Shapiro"
+
     - name: "Naveen Kumar Vadlamudi"
       role: "Masters Student"
       image: "/assets/images/students/naveen.jpg"
@@ -24,5 +39,3 @@ Masters:
       role: "Masters Student"
       image: "/assets/images/students/olan.jpg"
       supervisedBy: "Dr. Jackie Rice"
-
-  
