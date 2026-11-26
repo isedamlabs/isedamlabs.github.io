@@ -30,6 +30,11 @@ Master Students:
      description: "Dr. John Anvik"
      link: "https://jamiur.xyz/"
 
+   - name: "Mbala Ezra"
+     role: "Masters Student"
+     image: "/assets/images/students/mbala.jpg"
+     description: "Dr. Jackie Rice"
+
    
 PhD Students and Candidates:
    - name: "Md. Mohsin Uddin"
