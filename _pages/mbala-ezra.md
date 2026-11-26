@@ -7,7 +7,7 @@ permalink: /people/mbala-ezra/
 <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; align-items: flex-start; margin-bottom: 2rem;">
   <img src="/assets/images/students/mbala.jpg" alt="Mbala Ezra" style="width: 180px; height: 180px; object-fit: cover; border-radius: 8px;">
   <div>
-    <p><strong>Masters Student</strong><br>
+    <p><strong>PhD Student</strong><br>
     Supervised by: Dr. Jackie Rice</p>
   </div>
 </div>
