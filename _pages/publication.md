@@ -113,14 +113,14 @@ permalink: /publications/
                     <tr class="publication-row">
                       <td class="publication-image-cell">
                         {% if publication.image %}
-                          <img src="{{ publication.image }}" alt="{{ publication.title }}" class="publication-thumbnail">
+                          <img src="{{ publication.image }}" alt="{{ publication.title | escape }}" class="publication-thumbnail">
                         {% else %}
                           <img src="/assets/images/papers/research.jpg" alt="Research paper" class="publication-thumbnail">
                         {% endif %}
                       </td>
                       <td class="publication-citation-cell">
                         <div class="publication-citation">
-                          <strong class="publication-title">{{ publication.title }}</strong>
+                          <strong class="publication-title">{{ publication.title | escape }}</strong>
                           <br>
                           <span class="publication-authors">{{ publication.author }}</span>
                           {% if publication.journal %}
