@@ -1,10 +1,52 @@
 2026:
-  - title: "TBD"
-    instructor: "TBD"
-    location: "TBD"
+  - title: "Introduction to Software Engineering – CPSC 3720"
+    instructor: "Dr. John Anvik"
+    location: "Faculty of Arts & Science"
+    link: "https://www.coursicle.com/ulethca/courses/CPSC/3720/"
+    image: "/assets/images/teaching/astronomy.jpg"
+    description: "Fall 2026. System life cycle and methodologies, estimating and planning, requirements, design, implementation, testing, operation and maintenance, and quality assurance."
+
+  - title: "Databases and Data Management in Business – DGTR 3705"
+    instructor: "Dr. Sidney Shapiro"
+    location: "Dhillon School of Business"
+    link: ""
+    image: "/assets/images/teaching/data_management.jpg"
+    description: "Fall 2026 (A1/A2). Applied databases and data management for business contexts, including modeling, SQL, and analytics-ready data systems."
+
+  - title: "Emerging Technologies in Business: AI – DGTR 4115"
+    instructor: "Dr. Sidney Shapiro"
+    location: "Dhillon School of Business (HyFlex)"
+    link: ""
+    image: "/assets/images/teaching/ai_workplace.jpg"
+    description: "Fall 2026 (A1/A2; formerly MGT 3850). Organizational AI evaluation, governance, and implementation through case-based audits, risk investigations, fairness, costs, controls, and evidence-based recommendations."
+
+  - title: "Applied Studies – DGTR 4980"
+    instructor: "Dr. Sidney Shapiro"
+    location: "Dhillon School of Business"
     link: ""
     image: "/assets/images/teaching/astronomy.jpg"
-    description: "Course offerings for 2026 to be determined."
+    description: "Fall 2026. Supervised applied studies in AI-assisted coding and job-market readiness, and applied AI for digital transformation in community-based web development."
+
+  - title: "Data Transformation – DGTR 3720"
+    instructor: "Dr. Sidney Shapiro"
+    location: "Dhillon School of Business"
+    link: ""
+    image: "/assets/images/teaching/astronomy.jpg"
+    description: "Summer 2026. Programming techniques for manipulating, automating, and visualizing business data."
+
+  - title: "Data Wrangling – BANA/DASC 5050"
+    instructor: "Dr. Sidney Shapiro"
+    location: "Dhillon School of Business (HyFlex)"
+    link: "https://www.ulethbridge.ca/future-student/graduate-studies/foundations-data-science-gc"
+    image: "/assets/images/teaching/astronomy.jpg"
+    description: "Summer 2026. Profiling, cleaning, integrating, and reformatting heterogeneous data to produce high-quality datasets for analysis."
+
+  - title: "Data Management – BANA/DASC 5140"
+    instructor: "Dr. Sidney Shapiro"
+    location: "Dhillon School of Business (HyFlex)"
+    link: "https://www.ulethbridge.ca/future-student/graduate-studies/foundations-data-science-gc"
+    image: "/assets/images/teaching/astronomy.jpg"
+    description: "Summer 2026. Relational, file, and warehouse architectures; locating, retrieving, and governing data using SQL and web connectors within an ethical framework."
 
 2025:
   - title: "Introduction to Databases - CPSC 3660"
@@ -62,5 +104,3 @@
     link: ""
     image: "/assets/images/teaching/data_management.jpg"
     description: "This course explores principles of data management, database systems, and their applications in business analytics to support data-driven decision-making."
-
-
